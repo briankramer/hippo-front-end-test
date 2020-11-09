@@ -10,8 +10,9 @@ function ProductIntro() {
     <div className="row">
       <div className="col-6">
         <div className="row">
-          <div className="row">
-            <h2>Learn. Grow. Thrive.</h2>
+          <div id="learn-grow-thrive" className="mx-auto row">
+            <h2>Learn. Grow.</h2>
+            <h2>Thrive.</h2>
           </div>
           <div>
             <img
@@ -25,7 +26,7 @@ function ProductIntro() {
         <div className="row">
           <h2>Education Designed for People Like You</h2>
 
-          <h5>Authentic, Engaging, and Human</h5>
+          <h4>Authentic, Engaging, and Human</h4>
 
           <p>
             We’re obsessed with making education that respects your time,
@@ -44,7 +45,7 @@ function ProductIntro() {
         </div>
 
         <div className="row">
-          <h5>However and Whenever Your Need It</h5>
+          <h4>However and Whenever Your Need It</h4>
 
           <p>
             Get education that seamlessly fits into your busy life with
@@ -59,10 +60,10 @@ function ProductIntro() {
       </div>
       <div className="col-6">
         <div className="row">
-          <h5>
+          <h4>
             At Hippo Education, we believe that medical education should upgrade
             your practice and your life.
-          </h5>
+          </h4>
 
           <p>
             This lifelong learning should be exciting, and something we look
@@ -92,7 +93,7 @@ function ProductIntro() {
         </div>
 
         <div className="row">
-          <h5>Unrivaled Educational Excellence</h5>
+          <h4>Unrivaled Educational Excellence</h4>
 
           <p>
             Our physician-led education is carefully designed and presented by
