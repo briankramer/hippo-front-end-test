@@ -7,6 +7,27 @@ function ProductIntro() {
       <div className="col-6">
         <h2>Learn. Grow. Thrive.</h2>
 
+        <h2>Education Designed for People Like You</h2>
+
+        <h5>Authentic, Engaging, and Human</h5>
+
+        <p>
+          We’re obsessed with making education that respects your time,
+          attention span, and humanity. Every piece of education we produce is
+          made with intention for a consistently rewarding learning experience.
+        </p>
+
+        <h5>However and Whenever Your Need It</h5>
+
+        <p>
+          Get education that seamlessly fits into your busy life with
+          convenient, tech-forward podcasts, video lectures, and articles, all
+          on the go from your phone or tablet.
+        </p>
+
+        <h2>See (and Hear) the Hippo Difference for Yourself</h2>
+      </div>
+      <div className="col-6">
         <h5>
           At Hippo Education, we believe that medical education should upgrade
           your practice and your life.
@@ -30,16 +51,6 @@ function ProductIntro() {
 
         <button className="btn btn-primary">Explore Our Products</button>
 
-        <h2>Education Designed for People Like You</h2>
-
-        <h5>Authentic, Engaging, and Human</h5>
-
-        <p>
-          We’re obsessed with making education that respects your time,
-          attention span, and humanity. Every piece of education we produce is
-          made with intention for a consistently rewarding learning experience.
-        </p>
-
         <h5>Unrivaled Educational Excellence</h5>
 
         <p>
@@ -50,17 +61,6 @@ function ProductIntro() {
         </p>
 
         <button className="btn btn-primary">Explore Our Products</button>
-
-        <h5>However and Whenever Your Need It</h5>
-
-        <p>
-          Get education that seamlessly fits into your busy life with
-          convenient, tech-forward podcasts, video lectures, and articles, all
-          on the go from your phone or tablet.
-        </p>
-      </div>
-      <div className="col-6">
-        <h2>See (and Hear) the Hippo Difference for Yourself</h2>
       </div>
     </div>
   );
