@@ -1,5 +1,9 @@
 import React from 'react';
 import './ProductIntro.scss';
+import home1 from '../../images/home1.png';
+import home2 from '../../images/home2.png';
+import home3 from '../../images/home3.png';
+import home4 from '../../images/home4.png';
 
 function ProductIntro() {
   return (
@@ -7,6 +11,7 @@ function ProductIntro() {
       <div className="col-6">
         <div className="row">
           <h2>Learn. Grow. Thrive.</h2>
+          <img className="image-grid__image" alt="home 1" src={home1} />
         </div>
 
         <div className="row">
@@ -20,6 +25,10 @@ function ProductIntro() {
             made with intention for a consistently rewarding learning
             experience.
           </p>
+        </div>
+
+        <div className="row">
+          <img className="image-grid__image" alt="home 3" src={home3} />
         </div>
 
         <div className="row">
@@ -63,6 +72,10 @@ function ProductIntro() {
         </div>
 
         <div className="row">
+          <img className="image-grid__image" alt="home 2" src={home2} />
+        </div>
+
+        <div className="row">
           <h5>Unrivaled Educational Excellence</h5>
 
           <p>
@@ -73,6 +86,10 @@ function ProductIntro() {
           </p>
 
           <button className="btn btn-primary">Explore Our Products</button>
+        </div>
+
+        <div className="row">
+          <img className="image-grid__image" alt="product 4" src={home4} />
         </div>
       </div>
     </div>
