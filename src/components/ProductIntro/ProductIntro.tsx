@@ -10,8 +10,16 @@ function ProductIntro() {
     <div className="row">
       <div className="col-6">
         <div className="row">
-          <h2>Learn. Grow. Thrive.</h2>
-          <img className="image-grid__image" alt="home 1" src={home1} />
+          <div className="row">
+            <h2>Learn. Grow. Thrive.</h2>
+          </div>
+          <div>
+            <img
+              className="img-fluid rounded float-left"
+              alt="home 1"
+              src={home1}
+            />
+          </div>
         </div>
 
         <div className="row">
@@ -28,7 +36,11 @@ function ProductIntro() {
         </div>
 
         <div className="row">
-          <img className="image-grid__image" alt="home 3" src={home3} />
+          <img
+            className="img-fluid rounded float-left"
+            alt="home 3"
+            src={home3}
+          />
         </div>
 
         <div className="row">
@@ -72,7 +84,11 @@ function ProductIntro() {
         </div>
 
         <div className="row">
-          <img className="image-grid__image" alt="home 2" src={home2} />
+          <img
+            className="img-fluid rounded float-left"
+            alt="home 2"
+            src={home2}
+          />
         </div>
 
         <div className="row">
@@ -89,7 +105,11 @@ function ProductIntro() {
         </div>
 
         <div className="row">
-          <img className="image-grid__image" alt="product 4" src={home4} />
+          <img
+            className="img-fluid rounded float-left"
+            alt="product 4"
+            src={home4}
+          />
         </div>
       </div>
     </div>
